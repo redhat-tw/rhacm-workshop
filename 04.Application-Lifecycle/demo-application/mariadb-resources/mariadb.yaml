@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: mariadb
-          image: docker.io/bitnami/mariadb:10.3
+          image: docker.io/bitnami/mariadb:10.5
           ports:
             - containerPort: 3306
               name: db-port
